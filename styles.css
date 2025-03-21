@@ -236,12 +236,13 @@ form textarea {
 /* Footer */
 footer {
   background-color: #DDC0F0;
-  padding: 40px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  position: relative;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    position: relative;
+    height: 326px;
 }
 
 footer .column {
@@ -347,16 +348,16 @@ footer .column {
   background-color: #f0f0f0;
 }
 
-.copyright {
+.copyright { 
   text-align: center;
-  font-size: 12px;
+  font-size: 16px;
   color: #666;
   margin-top: 20px;
   position: absolute;
   bottom: 10px;
   width: 97%;
   border-top: 1px solid;
-  padding-top: 17px;
+  padding-top: 27px;
 }
 
 /* Responsive Design */
