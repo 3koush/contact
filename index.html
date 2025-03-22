@@ -22,8 +22,8 @@
               <li><a href="#">Home</a></li>
               <li><a href="#">About</a></li>
               <li><a href="#">Brands</a></li>
-              <li><a href="#" class="active">Best selling</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#">Best selling</a></li>
+              <li><a href="#" class="active" >Contact</a></li>
           </ul>
       </div>
       <div class="nav-icons">
@@ -53,7 +53,7 @@
                 <h3>I'm interested in...</h3>
                 <div class="buttons">
                     <button>ASILI</button>
-                    <button>AMITIE</button>
+                    <button >AMITIE</button>
                     <button>BY NUSAIBA</button>
                     <button>GLAVER</button>
                     <button>PIXI</button>
@@ -110,6 +110,16 @@
             <p>© Project2025. All rights reserved</p>
         </div>
     </footer>
-</body>
+    </div>
+    <script>
+      const buttons = document.querySelectorAll('.buttons button');
+      buttons.forEach(button => {
+          button.addEventListener('click', () => {
+              buttons.forEach(btn => btn.classList.remove('active'));
+              button.classList.add('active');
+          });
+      });
+  </script>
+  </body>
 
 </html>
