@@ -488,6 +488,7 @@ footer .column {
   flex: 1;
   min-width: 200px;
   margin: 10px 49px;
+  margin-bottom: 30px;
 }
 
 /* العمود الأول (Local Hub) */
@@ -592,14 +593,14 @@ footer .column {
 /* حقوق الطبع */
 .copyright {
   text-align: center;
-  font-size: 12px;
+  font-size: 15px;
   color: #666;
-  margin-top: 20px;
+  /* margin-top: 23px; */
   position: absolute;
-  bottom: 10px;
+  bottom: 12px;
   width: 97%;
   border-top: 1px solid;
-  padding-top: 10px;
+  padding-top: 13px;
 }
 
 /* التنسيق للشاشات الصغيرة */
