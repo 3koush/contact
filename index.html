@@ -23,7 +23,7 @@
               <li><a href="#">About</a></li>
               <li><a href="#">Brands</a></li>
               <li><a href="#">Best selling</a></li>
-              <li><a href="#" class="active" >Contact</a></li>
+              <li><a href="#" class="active">Contact</a></li>
           </ul>
       </div>
       <div class="nav-icons">
@@ -53,16 +53,16 @@
                 <h3>I'm interested in...</h3>
                 <div class="buttons">
                     <button>ASILI</button>
-                    <button >AMITIE</button>
+                    <button>AMITIE</button>
                     <button>BY NUSAIBA</button>
                     <button>GLAVER</button>
                     <button>PIXI</button>
                 </div>
-                <form>
-                    <input type="text" placeholder="Your name">
-                    <input type="email" placeholder="Your email">
-                    <input type="tel" placeholder="Your phone">
-                    <textarea placeholder="Your message"></textarea>
+                <form id="contactForm">
+                    <input type="text" id="name" placeholder="Your name">
+                    <input type="email" id="email" placeholder="Your email">
+                    <input type="tel" id="phone" placeholder="Your phone">
+                    <textarea id="message" placeholder="Your message"></textarea>
                     <button type="submit" class="submit-btn"><i class="fas fa-paper-plane"></i> Send Message</button>
                 </form>
             </div>
@@ -79,7 +79,6 @@
             <div class="subscribe-box">
                 <input type="email" placeholder="Enter your email">
                 <button>➤</button>
-
             </div>
         </div>
         <div class="column">
@@ -110,16 +109,15 @@
             <p>© Project2025. All rights reserved</p>
         </div>
     </footer>
-    </div>
+    <script src="script.js"></script>
     <script>
-      const buttons = document.querySelectorAll('.buttons button');
-      buttons.forEach(button => {
-          button.addEventListener('click', () => {
-              buttons.forEach(btn => btn.classList.remove('active'));
-              button.classList.add('active');
-          });
-      });
-  </script>
-  </body>
-
+        const buttons = document.querySelectorAll('.buttons button');
+        buttons.forEach(button => {
+            button.addEventListener('click', () => {
+                buttons.forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+            });
+        });
+    </script>
+</body>
 </html>

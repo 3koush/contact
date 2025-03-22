@@ -7,7 +7,7 @@
 body {
   background-color: #f3e7f5;
   color: #333;
-  font-family:'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Container */
@@ -87,7 +87,6 @@ body {
   color: #6c3b96;
   transition: color 0.3s ease;
 }
-
 
 /* Main Content */
 .main-content {
@@ -214,6 +213,14 @@ form textarea {
   border-bottom: 1px solid #d3c7d5;
 }
 
+/* التأثير لما الحقل يكون فيه focus */
+form input:focus,
+form textarea:focus {
+  border-bottom: 1px solid #7F43A5;
+  background-color: #f9f0ff;
+  transition: all 0.3s ease;
+}
+
 .submit-btn {
   padding: 12px;
   background-color: #7F43A5;
@@ -232,16 +239,6 @@ form textarea {
 
 .submit-btn:hover {
   background-color: #6b3cc9;
-}
-
-footer {
-  background-color: #DDC0F0; /* اللون البنفسجي الفاتح */
-  padding: 40px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  position: relative;
 }
 
 /* Footer */
